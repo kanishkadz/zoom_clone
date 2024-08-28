@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zoom/screens/login_screen.dart';
 import 'package:zoom/utils/colors.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home: const Text("Hello"),
+      home: const LoginScreen(),
     );
   }
 }
