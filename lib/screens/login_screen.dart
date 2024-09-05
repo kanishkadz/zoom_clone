@@ -14,16 +14,25 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Text('Start or join a meeting', style: const TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-          )),
+          const Text(
+            'Start or join a meeting',
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 38.0),
             child: Image.asset('assets/images/onboarding.jpg'),
           ),
-          const CustomButton(text: 'Google Sign In', onPressed: () {},),
+          CustomButton(
+            text: 'Google Sign In',
+            onPressed: () {
+              // Add your sign-in logic here
+            },
+          ),
         ],
       ),
     );
