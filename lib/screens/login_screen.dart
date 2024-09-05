@@ -19,7 +19,10 @@ class _LoginScreenState extends State<LoginScreen> {
             fontSize: 24,
             fontWeight: FontWeight.bold,
           )),
-          Image.asset('assets/images/onboarding.jpg'),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 38.0),
+            child: Image.asset('assets/images/onboarding.jpg'),
+          ),
           const CustomButton(text: 'Login'),
         ],
       ),
