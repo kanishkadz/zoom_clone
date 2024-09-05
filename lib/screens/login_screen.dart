@@ -17,7 +17,8 @@ class _LoginScreenState extends State<LoginScreen> {
           const Text('Start or join a meeting', style: const TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
-          ))
+          )),
+          Image.asset('assets/images/onboarding.jpg'),
         ],
       ),
     );
