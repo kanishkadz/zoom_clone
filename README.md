@@ -1,16 +1,21 @@
-# zoom
+<h1>Zoom Clone App</h1>
 
-A new Flutter project.
+<p>Welcome to the <strong>Zoom Clone App</strong> developed by <strong>Kanishka Anand</strong>! This project is a feature-packed video conferencing application built using Flutter, providing seamless real-time video communication with an intuitive and minimal UI.</p>
 
-## Getting Started
+<h2>Features</h2>
+<ul>
+  <li><strong>Real-Time Video Conferencing</strong>: Host or join meetings with high-quality video and audio.</li>
+  <li><strong>Meeting Scheduling</strong>: Schedule meetings and invite participants via a unique meeting ID.</li>
+  <li><strong>Chat Functionality</strong>: Send messages during meetings to enhance collaboration.</li>
+  <li><strong>Screen Sharing</strong>: Share your screen with participants during a live session.</li>
+  <li><strong>Minimal Design</strong>: A clean and easy-to-navigate interface for an improved user experience.</li>
+  <li><strong>Responsive UI</strong>: Optimized for both Android and iOS devices with fluid performance.</li>
+</ul>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h2>Tech Stack</h2>
+<ul>
+  <li><strong>Flutter</strong>: For building the cross-platform app.</li>
+  <li><strong>WebRTC</strong>: For real-time video and audio communication.</li>
+  <li><strong>Provider</strong>: State management solution for Flutter.</li>
+  <li><strong>Dart</strong>: Programming language used for Flutter development.</li>
+</ul>
